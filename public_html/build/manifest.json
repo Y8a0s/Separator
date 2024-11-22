@@ -1,0 +1,92 @@
+{
+  "resources/images/machineries-background.jpg": {
+    "file": "assets/machineries-background.8f0afdc0.jpg",
+    "src": "resources/images/machineries-background.jpg"
+  },
+  "resources/Fonts/Shabnam/Shabnam.eot": {
+    "file": "assets/Shabnam.5fef55d7.eot",
+    "src": "resources/Fonts/Shabnam/Shabnam.eot"
+  },
+  "resources/Fonts/Shabnam/Shabnam.woff2": {
+    "file": "assets/Shabnam.9313cde3.woff2",
+    "src": "resources/Fonts/Shabnam/Shabnam.woff2"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons.966620f9.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "resources/Fonts/Vazir/Vazir.eot": {
+    "file": "assets/Vazir.56e4ce68.eot",
+    "src": "resources/Fonts/Vazir/Vazir.eot"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons.c6569d46.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "resources/Fonts/Shabnam/Shabnam.woff": {
+    "file": "assets/Shabnam.6a2d385b.woff",
+    "src": "resources/Fonts/Shabnam/Shabnam.woff"
+  },
+  "resources/Fonts/Vazir/Vazir.woff2": {
+    "file": "assets/Vazir.c224eb4e.woff2",
+    "src": "resources/Fonts/Vazir/Vazir.woff2"
+  },
+  "resources/Fonts/Vazir/Vazir.woff": {
+    "file": "assets/Vazir.77161a05.woff",
+    "src": "resources/Fonts/Vazir/Vazir.woff"
+  },
+  "resources/Fonts/Shabnam/Shabnam.ttf": {
+    "file": "assets/Shabnam.12a1ee32.ttf",
+    "src": "resources/Fonts/Shabnam/Shabnam.ttf"
+  },
+  "resources/Fonts/Vazir/Vazir.ttf": {
+    "file": "assets/Vazir.8cfdc9ff.ttf",
+    "src": "resources/Fonts/Vazir/Vazir.ttf"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.085f3b8d.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_aos.fe03079a.js"
+    ]
+  },
+  "resources/admin/admin.js": {
+    "file": "assets/admin.b92821b6.js",
+    "src": "resources/admin/admin.js",
+    "isEntry": true,
+    "imports": [
+      "_aos.fe03079a.js"
+    ]
+  },
+  "_aos.fe03079a.js": {
+    "file": "assets/aos.fe03079a.js",
+    "css": [
+      "assets/aos.73168167.css"
+    ]
+  },
+  "aos.css": {
+    "file": "assets/aos.73168167.css",
+    "src": "aos.css"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.4ff199a7.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/admin/admin.css": {
+    "file": "assets/admin.29bf3d27.css",
+    "src": "resources/admin/admin.css",
+    "isEntry": true
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app.fca32562.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  },
+  "resources/admin/admin.scss": {
+    "file": "assets/admin.2a33637d.css",
+    "src": "resources/admin/admin.scss",
+    "isEntry": true
+  }
+}

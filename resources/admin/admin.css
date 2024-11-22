@@ -1,0 +1,277 @@
+/* ///////////////////////////////////////////////////// MAIN ///////////////////////////////////////////////////// */
+
+body{
+    font-family: 'Shabnam' , 'Vazir';
+    background-color: #dee2e6;
+    grid-template-columns: 1fr 5fr;
+}
+
+@media only screen and (max-width: 768px) {
+  body{
+    grid-template-columns: 1fr 7fr;
+  }
+}
+
+#app{
+    grid-template-rows: min-content minmax(110vh , auto);
+}
+
+/* ///////////////////////////////////////////////////// SIDEBAR ///////////////////////////////////////////////////// */
+aside * > .nav-link{
+    padding: 5px;
+}
+
+aside * > .collapse * > .nav-link {
+    color: white;
+}
+
+aside * > .nav-link:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+
+aside * > li {
+    width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  aside * > a {
+    width: fit-content;
+  }
+}
+
+/* ///////////////////////////////////////////////////// LOADING ///////////////////////////////////////////////////// */
+
+.lds-ellipsis {
+  display: inline-block;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #0d6efd;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+/* /////////////////////////////////////////////////////  SELECT 2  ///////////////////////////////////////////////////// */
+
+.select2-selection__choice {
+  color: white;
+  background-color:#0d6efd !important;
+  padding:5px 10px 5px 20px !important;
+}
+
+.select2-selection__choice__remove {
+  font-weight: 600;
+  color: black !important;
+}
+
+.select2-selection__choice__remove {
+  color: white !important;
+  font-size: x-large !important;
+}
+
+.select2-selection__choice__remove:hover {
+  color: black !important;
+  background-color: unset !important;
+}
+
+/* ///////////////////////////////////////////////////// Ribbons for products ///////////////////////////////////////////////////// */
+
+.ribbon {
+  width: 150px;
+  padding: 5px 5px 5px 25px;
+  position: absolute;
+  text-align: center;
+  color: #f0f0f0;
+  box-shadow: 10px 0 10px 0 rgb(182, 182, 182);
+}
+
+/* Positions */
+
+.ribbon-top    { top: 25px; }
+.ribbon-left   { left: -50px; }
+
+/* Rotations */
+
+.ribbon-top.ribbon-left
+ {
+  transform: rotate(-45deg);
+}
+
+/* ///////////////////////////////////////////////////// ANY PAGES ///////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 575px) {
+  .user-id-danger{
+    background-color:#DC3545 !important;
+    color: white;
+  }
+  .user-id-success{
+    background-color: #198754 !important;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .user-id-danger{
+    font-size: 1rem;
+    color: black;
+  }
+  .user-id-success{
+    font-size: 1rem;
+    color: black;
+  }
+}
+
+/* ///////////////////////////////////////////////////// INDEX PAGE ///////////////////////////////////////////////////// */
+ 
+.card-counter{
+  box-shadow: 2px 2px 10px #DADADA;
+  margin: 5px;
+  padding: 20px 10px;
+  background-color: #fff;
+  height: 100px;
+  border-radius: 5px;
+  transition: .3s linear all;
+}
+
+.card-counter:hover{
+  box-shadow: 4px 4px 20px #DADADA;
+  transition: .3s linear all;
+}
+
+.card-counter.primary{
+  background-color: #007bff;
+  color: #FFF;
+}
+
+.card-counter.danger{
+  background-color: #ef5350;
+  color: #FFF;
+}  
+
+.card-counter.success{
+  background-color: #66bb6a;
+  color: #FFF;
+}  
+
+.card-counter.info{
+  background-color: #26c6da;
+  color: #FFF;
+}  
+
+.card-counter i{
+  font-size: 5em;
+  opacity: 0.2;
+}
+
+.card-counter .count-numbers{
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  font-size: 32px;
+  display: block;
+}
+
+.card-counter .count-name{
+  position: absolute;
+  right: 35px;
+  top: 65px;
+  font-style: italic;
+  text-transform: capitalize;
+  opacity: 0.5;
+  display: block;
+  font-size: 18px;
+}
+
+/* ///////////////////////////////////////////////////// COMMENTS BUBBLE ///////////////////////////////////////////////////// */
+
+.bubble {
+	height: fit-content;
+  min-height: 250px;
+	/* width: 25% ; */
+  padding: 10px 10px 30px;
+	min-width: 200px;
+	display: block;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.pointer {
+	height: 40px;
+	width: 40px;
+	margin: 0 auto;
+	transform: rotate(45deg);
+	border-radius: 0 0 12px 0;
+	margin-top: -22px;
+	position: relative;
+	left: calc(0.5vw - 50px);
+}
+
+.light-dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+}
+
+.green-dot {
+  background-color: rgb(0, 224, 0);
+  box-shadow: 0px 0px 10px lime;
+}
+
+.red-dot {
+  background-color: red;
+  box-shadow: 0px 0px 10px red;
+}
+
+.yellow-dot {
+  background-color: rgb(255, 204, 0);
+  box-shadow: 0px 0px 10px yellow;
+}

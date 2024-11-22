@@ -1,0 +1,24 @@
+// Fonts
+@font-face {
+    font-family: 'Shabnam';
+    src: url('../Fonts/Shabnam/Shabnam.eot'); /* IE9 Compat Modes */
+    src: url('../Fonts/Shabnam/Shabnam.woff2') format('woff2'), /* Super Modern Browsers */
+           url('../Fonts/Shabnam/Shabnam.woff') format('woff'), /* Pretty Modern Browsers */
+           url('../Fonts/Shabnam/Shabnam.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../Fonts/Vazir/Vazir.eot'); /* IE9 Compat Modes */
+    src: url('../Fonts/Vazir/Vazir.woff2') format('woff2'), /* Super Modern Browsers */
+           url('../Fonts/Vazir/Vazir.woff') format('woff'), /* Pretty Modern Browsers */
+           url('../Fonts/Vazir/Vazir.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+// Select2
+@import "node_modules/select2/src/scss/core";
+// @import "node_modules/select2-bootstrap-5-theme/src/include-all";
